@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Portfolio<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section-scroll">
+        <div class="particles" id="particles"></div>
+        <div class="hero-content reveal">
+            <h4 class="greeting">Hello, I'm</h4>
+            <h1 class="name">Creative Developer</h1>
+            <h3 class="tagline">Music Producer & Web Developer</h3>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image reveal reveal-right">
+            <div class="image-wrapper">
+                <img src="WhatsApp%20Image%202026-04-20%20at%209.30.05%20AM.jpeg" alt="My Profile">
+                <div class="glow-effect"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-scroll">
+        <h2 class="section-title reveal">About <span>Me</span></h2>
+        <div class="about-content">
+            <div class="about-text reveal reveal-left">
+                <p>I'm a passionate developer and music producer with a love for creating beautiful digital experiences and soundscapes. I blend logic with creativity to build modern, responsive websites and produce high-quality audio tracks.</p>
+                <ul class="highlights">
+                    <li><i class="fas fa-check-circle"></i> Over 5 years of web development experience</li>
+                    <li><i class="fas fa-check-circle"></i> Specializing in modern JavaScript frameworks</li>
+                    <li><i class="fas fa-check-circle"></i> Proficient in audio engineering and mixing</li>
+                    <li><i class="fas fa-check-circle"></i> Dedicated to writing clean, maintainable code</li>
+                </ul>
+            </div>
+            <div class="about-icon reveal reveal-right">
+                <div class="icon-box">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="icon-box">
+                    <i class="fas fa-music"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-scroll">
+        <h2 class="section-title reveal">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-category reveal">
+                <h3><i class="fas fa-laptop-code"></i> Programming</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>HTML/CSS</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>JavaScript</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>React / Next.js</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                </div>
+            </div>
+            
+            <div class="skill-category reveal delay-1">
+                <h3><i class="fas fa-headphones"></i> Music Production</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Beat Making</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Mixing & Mastering</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Sound Design</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                </div>
+            </div>
+
+            <div class="skill-category reveal delay-2">
+                <h3><i class="fas fa-tools"></i> Tools</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Git & GitHub</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Figma</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Ableton Live</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-scroll">
+        <h2 class="section-title reveal">Featured <span>Projects</span></h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card reveal">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/600x400/222/a855f7?text=Project+1" alt="Project 1">
+                    <div class="overlay">
+                        <a href="#" class="icon"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="icon"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>E-Commerce Dashboard</h3>
+                    <p>A full-stack dashboard with real-time analytics and inventory management.</p>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card reveal delay-1">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/600x400/222/3b82f6?text=Project+2" alt="Project 2">
+                    <div class="overlay">
+                        <a href="#" class="icon"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="icon"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Beat Store</h3>
+                    <p>Custom audio player and beat selling platform with integrated payments.</p>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card reveal">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/600x400/222/a855f7?text=Project+3" alt="Project 3">
+                    <div class="overlay">
+                        <a href="#" class="icon"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="icon"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Template</h3>
+                    <p>A customizable portfolio template for creatives featuring dark mode.</p>
+                </div>
+            </div>
+            <!-- Project 4 -->
+            <div class="project-card reveal delay-1">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/600x400/222/3b82f6?text=Project+4" alt="Project 4">
+                    <div class="overlay">
+                        <a href="#" class="icon"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="icon"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Synthesizer Web App</h3>
+                    <p>Web Audio API based synthesizer with real-time effects and keyboard mapping.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-scroll">
+        <h2 class="section-title reveal">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="service-box reveal">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Building responsive, fast, and accessible web applications using modern technologies.</p>
+            </div>
+            <div class="service-box reveal delay-1">
+                <i class="fas fa-sliders-h"></i>
+                <h3>Beat Production</h3>
+                <p>Custom beat making across genres, tailored to your artistic vision.</p>
+            </div>
+            <div class="service-box reveal delay-2">
+                <i class="fas fa-headphones"></i>
+                <h3>Mixing & Mastering</h3>
+                <p>Professional audio post-production to make your tracks sound polished and ready for release.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section id="experience" class="experience section-scroll">
+        <h2 class="section-title reveal">My <span>Journey</span></h2>
+        <div class="timeline">
+            <div class="timeline-item reveal reveal-left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">2023 - Present</span>
+                    <h3>Senior Frontend Developer</h3>
+                    <p>Leading the frontend team, architecting complex UI components, and optimizing web performance.</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal reveal-right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">2021 - 2023</span>
+                    <h3>Freelance Audio Engineer & Web Dev</h3>
+                    <p>Worked with various clients delivering custom websites and mixing/mastering services for indie artists.</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal reveal-left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="date">2019 - 2021</span>
+                    <h3>Junior Web Developer</h3>
+                    <p>Started professional career building landing pages and simple web applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music/Now Playing Section -->
+    <section id="music" class="music section-scroll">
+        <h2 class="section-title reveal">Latest <span>Beats</span></h2>
+        <div class="music-container reveal">
+            <div class="player-card">
+                <div class="track-info">
+                    <img src="https://via.placeholder.com/80/222/a855f7?text=Art" alt="Album Art">
+                    <div>
+                        <h4>Midnight Drive</h4>
+                        <p>Synthwave / Retrowave</p>
+                    </div>
+                </div>
+                <div class="player-controls">
+                    <button><i class="fas fa-backward"></i></button>
+                    <button class="play-btn"><i class="fas fa-play"></i></button>
+                    <button><i class="fas fa-forward"></i></button>
+                </div>
+                <div class="progress-container">
+                    <span>0:00</span>
+                    <div class="track-progress"><div class="current-progress" style="width: 30%;"></div></div>
+                    <span>3:45</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials section-scroll">
+        <h2 class="section-title reveal">Client <span>Reviews</span></h2>
+        <div class="testimonial-container">
+            <div class="testimonial-card reveal">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p>"An absolute pleasure to work with. Delivered a stunning website that exceeded our expectations, and the custom background music was the cherry on top."</p>
+                <div class="client-info">
+                    <img src="https://via.placeholder.com/50/444/fff?text=S" alt="Client 1">
+                    <div>
+                        <h4>Sarah Jenkins</h4>
+                        <p>Creative Director</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card reveal delay-1">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p>"The beat production was top-tier. Exactly the vibe I was looking for, mixed perfectly. Highly recommend for any serious artists."</p>
+                <div class="client-info">
+                    <img src="https://via.placeholder.com/50/444/fff?text=M" alt="Client 2">
+                    <div>
+                        <h4>Marcus T.</h4>
+                        <p>Independent Artist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-scroll">
+        <h2 class="section-title reveal">Get In <span>Touch</span></h2>
+        <div class="contact-container">
+            <div class="contact-info reveal reveal-left">
+                <h3>Let's talk about everything!</h3>
+                <p>Don't like forms? Send me an email. 👋</p>
+                <div class="contact-details">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>hello@example.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>New York, NY</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-soundcloud"></i></a>
+                </div>
+            </div>
+            <div class="contact-form-container reveal reveal-right">
+                <form id="contactForm" class="contact-form">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <span class="error-msg" id="nameError"></span>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <span class="error-msg" id="emailError"></span>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        <span class="error-msg" id="msgError"></span>
+                    </div>
+                    <button type="submit" class="btn primary submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    <div id="formSuccess" class="success-msg">Message sent successfully!</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Portfolio<span>.</span></div>
+            <p>&copy; 2026 Creative Developer. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
